@@ -1,0 +1,26 @@
+docker-machine env default
+export DOCKER_TLS_VERIFY="1"
+export DOCKER_HOST="tcp://192.168.99.113:2376"
+export DOCKER_CERT_PATH="/Users/mdamovsky/.docker/machine/machines/default"
+export DOCKER_MACHINE_NAME="default"
+curl -i --cacert $DOCKER_CERT_PATH/ca.pem --cert $DOCKER_CERT_PATH/cert.pem --key $DOCKER_CERT_PATH/key.pem https://192.168.99.113:2376/images/json
+openssl pkcs12 -export -in $DOCKER_CERT_PATH/cert.pem -inkey $DOCKER_CERT_PATH/key.pem -out $DOCKER_CERT_PATH/cert.pfx -password pass:supersecret
+curl --cacert $DOCKER_CERT_PATH/ca.pem --cert $DOCKER_CERT_PATH/cert.pfx --pass supersecret https://192.168.99.113:2376/images/json
+
+brew update
+brew install jq
+
+
+
+curl --cacert $DOCKER_CERT_PATH/ca.pem --cert $DOCKER_CERT_PATH/cert.pfx --pass supersecret https://192.168.99.113:2376/images/json | jq . | less
+
+
+
+curl --cacert $DOCKER_CERT_PATH/ca.pem --cert $DOCKER_CERT_PATH/cert.pfx --pass supersecret https://192.168.99.113:2376/images/json | jq .'[] | .RepoTags[0]'| less
+
+
+
+curl --cacert $DOCKER_CERT_PATH/ca.pem --cert $DOCKER_CERT_PATH/cert.pfx --pass supersecret https://192.168.99.113:2376/containers/json | jq .| less
+
+
+curl --cacert $DOCKER_CERT_PATH/ca.pem --cert $DOCKER_CERT_PATH/cert.pfx --pass supersecret https://192.168.99.113:2376/containers/292f518b2be9/json | jq .| less

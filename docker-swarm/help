@@ -1,0 +1,26 @@
+
+
+
+http://blog.tutum.co/2015/05/05/load-balancing-the-missing-piece-of-the-container-world/
+
+
+SWARM CLUSTER
+
+# create an empty vm
+docker-machine create -d virtualbox local
+eval "$(docker-machine env local)"
+
+# Create discovery token - use hosted discovery service on dockerhub
+# https://discovery.hub.docker.com/v1/clusters/77fbc23332f7852fb407aa20a8b541f0
+docker run swarm create 
+
+# create cluster manager (master)
+docker-machine create -d virtualbox --swarm --swarm-master --swarm-discovery token://77fbc23332f7852fb407aa20a8b541f0 swarm-master
+
+# create and join hosts to cluster
+docker-machine create -d virtualbox --swarm --swarm-discovery token://77fbc23332f7852fb407aa20a8b541f0 swarm-agent-00 
+docker-machine create -d virtualbox --swarm --swarm-discovery token://77fbc23332f7852fb407aa20a8b541f0 swarm-agent-01
+eval $(docker-machine env --swarm swarm-master)
+
+
+
