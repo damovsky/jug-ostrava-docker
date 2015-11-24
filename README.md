@@ -1,1 +1,2 @@
-# jug-ostrava-docker
+# Demos used during JUG Ostrava presentation
+
