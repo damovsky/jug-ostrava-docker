@@ -1,0 +1,1 @@
+If you run this example on Mac OS with Docker in VM, do not forget to share this to VM, otherwise the containers in docker won't have an acess to the index.php
