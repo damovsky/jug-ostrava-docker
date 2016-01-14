@@ -1,9 +1,6 @@
 <?php
-echo "JUG OSTRAVA!!!";
-echo '<h3>Current PHP version: ' . phpversion()."</h3>";
+echo '<h1>Current PHP version: ' . phpversion()."</h1>";
  
-//echo "Call Function Math.intdiv(10,3) results : ".intdiv(10,3);
-
 echo "<br /><br /><br /><br />";
 // an example of backward incompatible change in php 5.6 
 // see http://php.net/manual/en/migration56.incompatible.php
@@ -17,8 +14,9 @@ class C {
     ];
 }
 
+echo "<h2>";
 var_dump((new C)->array);
-
+echo "</h2>";
 
 
 

@@ -30,6 +30,6 @@ lb:
    - php56
    - php7
   ports:
-   - "80:80"
+   - "8080:80"
   environment:
    - BALANCE=roundrobin

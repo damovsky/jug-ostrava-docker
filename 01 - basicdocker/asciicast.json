@@ -1,0 +1,878 @@
+{
+  "version": 1,
+  "width": 185,
+  "height": 43,
+  "duration": 42.370261,
+  "command": "/bin/zsh",
+  "title": "",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.129830,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                        \r \r"
+    ],
+    [
+      0.000065,
+      "\u001b]2;mdamovsky@mdamovsky-mac4: ~/Dropbox (Personal)/JUG_Ostrava_docker/demos/01 - basicdocker\u0007"
+    ],
+    [
+      0.000059,
+      "\u001b]1;..erFileExample\u0007"
+    ],
+    [
+      0.019552,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜ \u001b[01;32m \u001b[36m01 - basicdocker \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m"
+    ],
+    [
+      0.000006,
+      "\u001b[K"
+    ],
+    [
+      0.000143,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.885157,
+      "."
+    ],
+    [
+      0.508916,
+      "\u0008 \u0008"
+    ],
+    [
+      0.216099,
+      "c"
+    ],
+    [
+      0.176038,
+      "\u0008ca"
+    ],
+    [
+      0.103747,
+      "t"
+    ],
+    [
+      0.144075,
+      " "
+    ],
+    [
+      0.248089,
+      "."
+    ],
+    [
+      0.080087,
+      "/"
+    ],
+    [
+      0.343910,
+      "D"
+    ],
+    [
+      0.168042,
+      "o"
+    ],
+    [
+      0.088096,
+      "c"
+    ],
+    [
+      0.079835,
+      "k"
+    ],
+    [
+      0.151969,
+      "e"
+    ],
+    [
+      0.039997,
+      "r"
+    ],
+    [
+      0.296025,
+      "file\u001b[1m \u001b[0m"
+    ],
+    [
+      0.543795,
+      "\u0008\u001b[0m \u0008"
+    ],
+    [
+      0.000052,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000077,
+      "\r\r\n"
+    ],
+    [
+      0.000880,
+      "\u001b]2;cat ./Dockerfile\u0007\u001b]1;cat\u0007"
+    ],
+    [
+      0.002712,
+      "FROM debian:wheezy\r\n\r\nRUN apt-get update\r\nRUN apt-get install -y python2.7\r\n\r\nCMD python2.7 -m SimpleHTTPServer 8000"
+    ],
+    [
+      0.000344,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                        \r \r"
+    ],
+    [
+      0.000144,
+      "\u001b]2;mdamovsky@mdamovsky-mac4: ~/Dropbox (Personal)/JUG_Ostrava_docker/demos/01 - basicdocker\u0007"
+    ],
+    [
+      0.000004,
+      "\u001b]1;..erFileExample\u0007"
+    ],
+    [
+      0.017397,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜ \u001b[01;32m \u001b[36m01 - basicdocker \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m"
+    ],
+    [
+      0.000005,
+      "\u001b[K"
+    ],
+    [
+      0.000045,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      6.179739,
+      "d"
+    ],
+    [
+      0.000149,
+      "\u0008do"
+    ],
+    [
+      0.000095,
+      "c"
+    ],
+    [
+      0.000066,
+      "k"
+    ],
+    [
+      0.000065,
+      "e"
+    ],
+    [
+      0.000078,
+      "r"
+    ],
+    [
+      0.000030,
+      " "
+    ],
+    [
+      0.000062,
+      "b"
+    ],
+    [
+      0.000100,
+      "u"
+    ],
+    [
+      0.000071,
+      "i"
+    ],
+    [
+      0.000049,
+      "l"
+    ],
+    [
+      0.000036,
+      "d"
+    ],
+    [
+      0.000007,
+      " "
+    ],
+    [
+      0.000065,
+      "-"
+    ],
+    [
+      0.000056,
+      "t"
+    ],
+    [
+      0.000008,
+      " "
+    ],
+    [
+      0.000073,
+      "p"
+    ],
+    [
+      0.000038,
+      "y"
+    ],
+    [
+      0.000071,
+      "t"
+    ],
+    [
+      0.000049,
+      "h"
+    ],
+    [
+      0.000040,
+      "o"
+    ],
+    [
+      0.000055,
+      "n"
+    ],
+    [
+      0.000018,
+      " "
+    ],
+    [
+      0.000058,
+      "."
+    ],
+    [
+      0.957542,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000046,
+      "\r\r\n"
+    ],
+    [
+      0.000672,
+      "\u001b]2;docker build -t python .\u0007\u001b]1;docker\u0007"
+    ],
+    [
+      0.161918,
+      "Sending build context to Docker daemon 4.096 kB\r"
+    ],
+    [
+      0.000008,
+      "Sending build context to Docker daemon 4.096 kB\r\r\r\n"
+    ],
+    [
+      0.025722,
+      "Step 1 : FROM debian:wheezy\r\n"
+    ],
+    [
+      0.000194,
+      " ---\u003e 5e2a9df259d2\r\n"
+    ],
+    [
+      0.000144,
+      "Step 2 : RUN apt-get update\r\n"
+    ],
+    [
+      0.011894,
+      " ---\u003e Running in 1b26db0765ad\r\n"
+    ],
+    [
+      0.378806,
+      "Get:1 http://security.debian.org wheezy/updates Release.gpg [1554 B]\r\n"
+    ],
+    [
+      0.032346,
+      "Get:2 http://security.debian.org wheezy/updates Release [102 kB]\r\n"
+    ],
+    [
+      0.063859,
+      "Get:3 http://httpredir.debian.org wheezy Release.gpg [2373 B]\r\n"
+    ],
+    [
+      0.109630,
+      "Get:4 http://security.debian.org wheezy/updates/main amd64 Packages [417 kB]\r\n"
+    ],
+    [
+      0.070509,
+      "Get:5 http://httpredir.debian.org wheezy-updates Release.gpg [1554 B]\r\n"
+    ],
+    [
+      0.134403,
+      "Get:6 http://httpredir.debian.org wheezy Release [191 kB]\r\n"
+    ],
+    [
+      0.120347,
+      "Get:7 http://httpredir.debian.org wheezy-updates Release [143 kB]\r\n"
+    ],
+    [
+      0.230084,
+      "Get:8 http://httpredir.debian.org wheezy/main amd64 Packages [7637 kB]\r\n"
+    ],
+    [
+      3.031604,
+      "Get:9 http://httpredir.debian.org wheezy-updates/main amd64 Packages [5788 B]\r\n"
+    ],
+    [
+      0.501095,
+      "Fetched 8502 kB in 4s (1848 kB/s)\r\nReading package lists..."
+    ],
+    [
+      0.666254,
+      "\r\n"
+    ],
+    [
+      0.145206,
+      " ---\u003e c55ffb5ea347\r\n"
+    ],
+    [
+      0.003832,
+      "Removing intermediate container 1b26db0765ad\r\n"
+    ],
+    [
+      0.000142,
+      "Step 3 : RUN apt-get install -y python2.7\r\n"
+    ],
+    [
+      0.009589,
+      " ---\u003e Running in 9193f3e8c882\r\n"
+    ],
+    [
+      0.274439,
+      "Reading package lists..."
+    ],
+    [
+      0.666524,
+      "\r\n"
+    ],
+    [
+      0.002528,
+      "Building dependency tree..."
+    ],
+    [
+      0.086636,
+      "\r\n"
+    ],
+    [
+      0.000214,
+      "Reading state information..."
+    ],
+    [
+      0.000255,
+      "\r\n"
+    ],
+    [
+      0.075427,
+      "The following extra packages will be installed:\r\n"
+    ],
+    [
+      0.000176,
+      "  file libexpat1 libgpm2 libmagic1 libncursesw5 libsqlite3-0 libssl1.0.0\r\n"
+    ],
+    [
+      0.000176,
+      "  mime-support python2.7-minimal\r\n"
+    ],
+    [
+      0.000676,
+      "Suggested packages:\r\n"
+    ],
+    [
+      0.000209,
+      "  gpm python2.7-doc binutils binfmt-support\r\n"
+    ],
+    [
+      0.000997,
+      "The following NEW packages will be installed:\r\n"
+    ],
+    [
+      0.000179,
+      "  file libexpat1 libgpm2 libmagic1 libncursesw5 libsqlite3-0 libssl1.0.0\r\n"
+    ],
+    [
+      0.000070,
+      "  mime-support python2.7 python2.7-minimal\r\n"
+    ],
+    [
+      0.533952,
+      "0 upgraded, 10 newly installed, 0 to remove and 0 not upgraded.\r\nNeed to get 6839 kB of archives.\r\nAfter this operation, 22.1 MB of additional disk space will be used.\r\nGet:1 http://security.debian.org/ wheezy/updates/main libssl1.0.0 amd64 1.0.1e-2+deb7u19 [1263 kB]\r\n"
+    ],
+    [
+      0.182962,
+      "Get:2 http://httpredir.debian.org/debian/ wheezy/main libncursesw5 amd64 5.9-10 [141 kB]\r\n"
+    ],
+    [
+      0.301078,
+      "Get:3 http://httpredir.debian.org/debian/ wheezy/main libgpm2 amd64 1.20.4-6 [35.8 kB]\r\n"
+    ],
+    [
+      0.071215,
+      "Get:4 http://httpredir.debian.org/debian/ wheezy/main libmagic1 amd64 5.11-2+deb7u8 [205 kB]\r\n"
+    ],
+    [
+      0.204117,
+      "Get:5 http://httpredir.debian.org/debian/ wheezy/main libsqlite3-0 amd64 3.7.13-1+deb7u2 [454 kB]\r\n"
+    ],
+    [
+      0.367504,
+      "Get:6 http://httpredir.debian.org/debian/ wheezy/main libexpat1 amd64 2.1.0-1+deb7u2 [139 kB]\r\n"
+    ],
+    [
+      0.090247,
+      "Get:7 http://httpredir.debian.org/debian/ wheezy/main file amd64 5.11-2+deb7u8 [53.4 kB]\r\n"
+    ],
+    [
+      0.060998,
+      "Get:8 http://httpredir.debian.org/debian/ wheezy/main mime-support all 3.52-1+deb7u1 [35.5 kB]\r\n"
+    ],
+    [
+      0.045244,
+      "Get:9 http://httpredir.debian.org/debian/ wheezy/main python2.7-minimal amd64 2.7.3-6+deb7u2 [1785 kB]\r\n"
+    ],
+    [
+      1.007353,
+      "Get:10 http://httpredir.debian.org/debian/ wheezy/main python2.7 amd64 2.7.3-6+deb7u2 [2728 kB]\r\n"
+    ],
+    [
+      1.612470,
+      "\u001b[91mdebconf: delaying package configuration, since apt-utils is not installed\r\n\u001b[0m"
+    ],
+    [
+      0.005813,
+      "Fetched 6839 kB in 3s (1728 kB/s)\r\n"
+    ],
+    [
+      0.009565,
+      "Selecting previously unselected package libncursesw5:amd64.\r\n"
+    ],
+    [
+      0.000158,
+      "(Reading database ... "
+    ],
+    [
+      0.003356,
+      "6717 files and directories currently installed.)\r\n"
+    ],
+    [
+      0.000463,
+      "Unpacking libncursesw5:amd64 (from .../libncursesw5_5.9-10_amd64.deb) ...\r\n"
+    ],
+    [
+      0.019472,
+      "Selecting previously unselected package libssl1.0.0:amd64.\r\n"
+    ],
+    [
+      0.000847,
+      "Unpacking libssl1.0.0:amd64 (from .../libssl1.0.0_1.0.1e-2+deb7u19_amd64.deb) ...\r\n"
+    ],
+    [
+      0.042371,
+      "Selecting previously unselected package libgpm2:amd64.\r\n"
+    ],
+    [
+      0.000924,
+      "Unpacking libgpm2:amd64 (from .../libgpm2_1.20.4-6_amd64.deb) ...\r\n"
+    ],
+    [
+      0.015170,
+      "Selecting previously unselected package libmagic1:amd64.\r\n"
+    ],
+    [
+      0.000668,
+      "Unpacking libmagic1:amd64 (from .../libmagic1_5.11-2+deb7u8_amd64.deb) ...\r\n"
+    ],
+    [
+      0.046512,
+      "Selecting previously unselected package libsqlite3-0:amd64.\r\n"
+    ],
+    [
+      0.000829,
+      "Unpacking libsqlite3-0:amd64 (from .../libsqlite3-0_3.7.13-1+deb7u2_amd64.deb) ...\r\n"
+    ],
+    [
+      0.022420,
+      "Selecting previously unselected package libexpat1:amd64.\r\n"
+    ],
+    [
+      0.000912,
+      "Unpacking libexpat1:amd64 (from .../libexpat1_2.1.0-1+deb7u2_amd64.deb) ...\r\n"
+    ],
+    [
+      0.015970,
+      "Selecting previously unselected package file.\r\n"
+    ],
+    [
+      0.000923,
+      "Unpacking file (from .../file_5.11-2+deb7u8_amd64.deb) ...\r\n"
+    ],
+    [
+      0.019840,
+      "Selecting previously unselected package mime-support.\r\n"
+    ],
+    [
+      0.000786,
+      "Unpacking mime-support (from .../mime-support_3.52-1+deb7u1_all.deb) ...\r\n"
+    ],
+    [
+      0.016420,
+      "Selecting previously unselected package python2.7-minimal.\r\n"
+    ],
+    [
+      0.000759,
+      "Unpacking python2.7-minimal (from .../python2.7-minimal_2.7.3-6+deb7u2_amd64.deb) ...\r\n"
+    ],
+    [
+      0.083646,
+      "Selecting previously unselected package python2.7.\r\n"
+    ],
+    [
+      0.000967,
+      "Unpacking python2.7 (from .../python2.7_2.7.3-6+deb7u2_amd64.deb) ...\r\n"
+    ],
+    [
+      0.142299,
+      "Setting up libncursesw5:amd64 (5.9-10) ...\r\n"
+    ],
+    [
+      0.008610,
+      "Setting up libssl1.0.0:amd64 (1.0.1e-2+deb7u19) ...\r\n"
+    ],
+    [
+      0.056678,
+      "\u001b[91mdebconf: unable to initialize frontend: Dialog\r\n\u001b[0m"
+    ],
+    [
+      0.000172,
+      "\u001b[91mdebconf: (TERM is not set, so the dialog frontend is not usable.)\r\n\u001b[0m"
+    ],
+    [
+      0.000178,
+      "\u001b[91mdebconf: falling back to frontend: Readline\r\n\u001b[0m"
+    ],
+    [
+      0.000437,
+      "\u001b[91mdebconf: unable to initialize frontend: Readline\r\n\u001b[0m"
+    ],
+    [
+      0.000186,
+      "\u001b[91mdebconf: (Can't locate Term/ReadLine.pm in @INC (@INC contains: /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\n\u001b[0m"
+    ],
+    [
+      0.000167,
+      "\u001b[91mdebconf: falling back to frontend: Teletype\r\n\u001b[0m"
+    ],
+    [
+      0.019292,
+      "Setting up libgpm2:amd64 (1.20.4-6) ...\r\n"
+    ],
+    [
+      0.005707,
+      "Setting up libmagic1:amd64 (5.11-2+deb7u8) ...\r\n"
+    ],
+    [
+      0.006389,
+      "Setting up libsqlite3-0:amd64 (3.7.13-1+deb7u2) ...\r\n"
+    ],
+    [
+      0.007516,
+      "Setting up libexpat1:amd64 (2.1.0-1+deb7u2) ...\r\n"
+    ],
+    [
+      0.005974,
+      "Setting up file (5.11-2+deb7u8) ...\r\n"
+    ],
+    [
+      0.002792,
+      "Setting up mime-support (3.52-1+deb7u1) ...\r\n"
+    ],
+    [
+      0.007232,
+      "update-alternatives: "
+    ],
+    [
+      0.000210,
+      "using /usr/bin/see to provide /usr/bin/view (view) in auto mode"
+    ],
+    [
+      0.000250,
+      "\r\n"
+    ],
+    [
+      0.008541,
+      "Setting up python2.7-minimal (2.7.3-6+deb7u2) ...\r\n"
+    ],
+    [
+      0.245247,
+      "Linking and byte-compiling packages for runtime python2.7...\r\n"
+    ],
+    [
+      0.006528,
+      "Setting up python2.7 (2.7.3-6+deb7u2) ...\r\n"
+    ],
+    [
+      1.243631,
+      " ---\u003e 900165e02564\r\n"
+    ],
+    [
+      0.023060,
+      "Removing intermediate container 9193f3e8c882\r\n"
+    ],
+    [
+      0.000006,
+      "Step 4 : CMD python2.7 -m SimpleHTTPServer 8000\r\n"
+    ],
+    [
+      0.012497,
+      " ---\u003e Running in 93d4bf1c063e\r\n"
+    ],
+    [
+      0.041133,
+      " ---\u003e 4a55548d415b\r\n"
+    ],
+    [
+      0.003068,
+      "Removing intermediate container 93d4bf1c063e\r\n"
+    ],
+    [
+      0.000151,
+      "Successfully built 4a55548d415b\r\n"
+    ],
+    [
+      0.003520,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                        \r \r"
+    ],
+    [
+      0.000110,
+      "\u001b]2;mdamovsky@mdamovsky-mac4: ~/Dropbox (Personal)/JUG_Ostrava_docker/demos/01 - basicdocker\u0007"
+    ],
+    [
+      0.000017,
+      "\u001b]1;..erFileExample\u0007"
+    ],
+    [
+      0.020668,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜ \u001b[01;32m \u001b[36m01 - basicdocker \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m"
+    ],
+    [
+      0.000006,
+      "\u001b[K"
+    ],
+    [
+      0.000082,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      8.412561,
+      "d"
+    ],
+    [
+      0.000123,
+      "\u0008do"
+    ],
+    [
+      0.000092,
+      "c"
+    ],
+    [
+      0.000106,
+      "k"
+    ],
+    [
+      0.000117,
+      "e"
+    ],
+    [
+      0.000072,
+      "r"
+    ],
+    [
+      0.000005,
+      " "
+    ],
+    [
+      0.000084,
+      "r"
+    ],
+    [
+      0.000064,
+      "u"
+    ],
+    [
+      0.000057,
+      "n"
+    ],
+    [
+      0.000004,
+      " "
+    ],
+    [
+      0.000066,
+      "-"
+    ],
+    [
+      0.000090,
+      "d"
+    ],
+    [
+      0.000033,
+      " "
+    ],
+    [
+      0.000066,
+      "-"
+    ],
+    [
+      0.000067,
+      "p "
+    ],
+    [
+      0.000059,
+      "8"
+    ],
+    [
+      0.000047,
+      "0"
+    ],
+    [
+      0.000042,
+      "0"
+    ],
+    [
+      0.000070,
+      "0"
+    ],
+    [
+      0.000034,
+      ":"
+    ],
+    [
+      0.000053,
+      "8"
+    ],
+    [
+      0.000074,
+      "0"
+    ],
+    [
+      0.000051,
+      "0"
+    ],
+    [
+      0.000071,
+      "0"
+    ],
+    [
+      0.000015,
+      " "
+    ],
+    [
+      0.000065,
+      "-"
+    ],
+    [
+      0.000059,
+      "-"
+    ],
+    [
+      0.000045,
+      "n"
+    ],
+    [
+      0.000053,
+      "a"
+    ],
+    [
+      0.000044,
+      "m"
+    ],
+    [
+      0.000053,
+      "e"
+    ],
+    [
+      0.000032,
+      " "
+    ],
+    [
+      0.000063,
+      "h"
+    ],
+    [
+      0.000050,
+      "t"
+    ],
+    [
+      0.000054,
+      "t"
+    ],
+    [
+      0.000028,
+      "p"
+    ],
+    [
+      0.000024,
+      " "
+    ],
+    [
+      0.000044,
+      "p"
+    ],
+    [
+      0.000041,
+      "y"
+    ],
+    [
+      0.000043,
+      "t"
+    ],
+    [
+      0.000057,
+      "h"
+    ],
+    [
+      0.000043,
+      "o"
+    ],
+    [
+      0.000045,
+      "n"
+    ],
+    [
+      2.916347,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000004,
+      "\r\r\n"
+    ],
+    [
+      0.000638,
+      "\u001b]2;docker run -d -p 8000:8000 --name http python\u0007"
+    ],
+    [
+      0.000015,
+      "\u001b]1;docker\u0007"
+    ],
+    [
+      0.168066,
+      "6e226d9e8c752874a5eaa8c74722d57719a74c755fb72e59dcb4d531792f3006\r\n"
+    ],
+    [
+      0.076526,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                        \r \r"
+    ],
+    [
+      0.000072,
+      "\u001b]2;mdamovsky@mdamovsky-mac4: ~/Dropbox (Personal)/JUG_Ostrava_docker/demos/01 - basicdocker\u0007"
+    ],
+    [
+      0.000029,
+      "\u001b]1;..erFileExample\u0007"
+    ],
+    [
+      0.020023,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜ \u001b[01;32m \u001b[36m01 - basicdocker \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K"
+    ],
+    [
+      0.000081,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      5.895210,
+      "\r\r\n"
+    ]
+  ]
+}
