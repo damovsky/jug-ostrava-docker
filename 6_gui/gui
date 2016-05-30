@@ -9,4 +9,4 @@ open -a XQuartz
 socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
 
 # in another window
-docker run -e DISPLAY=192.168.99.1:0 jess/skype
+docker run -e DISPLAY=192.168.0.102:0 jess/skype
