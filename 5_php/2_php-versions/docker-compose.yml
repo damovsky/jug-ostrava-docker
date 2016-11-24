@@ -22,14 +22,27 @@ php7:
   - ./index.php:/var/www/html/index.php
 
 
+#lb:
+#  image: tutum/haproxy
+#  links:
+#   - php54
+#   - php55
+#   - php56
+#   - php7
+#  ports:
+#   - "8080:80"
+#  environment:
+#   - BALANCE=roundrobin
 lb:
-  image: tutum/haproxy
-  links:
-   - php54
-   - php55
-   - php56
-   - php7
-  ports:
-   - "8080:80"
-  environment:
-   - BALANCE=roundrobin
+    image: dockercloud/haproxy
+    links:
+      - php54
+      - php55
+      - php56
+      - php7
+    environment:
+      - DOCKER_TLS_VERIFY
+      - DOCKER_HOST
+      - DOCKER_CERT_PATH
+    ports:
+      - 80:80
